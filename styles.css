@@ -1,0 +1,21 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.header {
+    overflow: hidden;
+    background-color: powderblue;
+    padding: 20px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: #a0d0d6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
