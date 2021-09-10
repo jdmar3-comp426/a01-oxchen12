@@ -1,21 +1,66 @@
 body {
-    background-color: lightgoldenrodyellow;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.home-bg {
+    background: lightgoldenrodyellow url("img/griffin-big.png") no-repeat fixed center top;
+}
+
+.other-bg {
+    background: lightgoldenrodyellow url("img/griffin-crop.png") no-repeat fixed center top;
+}
+
+.vspace-large {
+    height: 765px;
+}
+
+.vspace-small {
+    height: 372px;
 }
 
 .header {
+    text-align: right;
     overflow: hidden;
-    background-color: powderblue;
+    background: rgba(0, 0, 0, 0.25);
     padding: 20px 10px;
+    margin-top: 15px;
+    margin-bottom: 700px;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:hover {
+.header a {
     color: white;
-    background-color: #a0d0d6;
+    text-decoration: none;
+    text-align: center;
+    font: 20px "Lucida Sans", SansSerif;
+    border-radius: 5px;
+    padding: 7px 7px;
+}
+
+.header a:hover {
+    color: white;
+    background: #6f94b3;
     text-decoration: none;
     cursor: pointer;
 }
 
+.header a.active {
+    color: white;
+    background-color: steelblue;
+    text-decoration: none;
+}
+
+h1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font: 54px "Montserrat Medium";
+}
+
+p {
+    border-left: lightgrey 3px;
+    border-right: lightgrey 3px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+}
