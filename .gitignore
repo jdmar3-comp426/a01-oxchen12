@@ -119,6 +119,3 @@ dist
 
 # other
 .idea/
-*.iml
-*.yml
-*.xml
