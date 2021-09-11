@@ -2,22 +2,22 @@ body {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
+    background-color: #fafad2;
+    min-width: 1900px;
 }
 
-.home-bg {
-    background: lightgoldenrodyellow url("img/griffin-big.png") no-repeat fixed center top;
+.vspace-tiny {
+    height: 15px;
 }
 
-.other-bg {
-    background: lightgoldenrodyellow url("img/griffin-crop.png") no-repeat fixed center top;
-}
-
-.vspace-large {
+.bg-header-large {
     height: 765px;
+    background: #fafad2 url("img/griffin-large.png") no-repeat fixed center top;
 }
 
-.vspace-small {
+.bg-header-small {
     height: 372px;
+    background: #fafad2 url("img/griffin-small.png") no-repeat fixed center top;
 }
 
 .header {
@@ -25,7 +25,6 @@ body {
     overflow: hidden;
     background: rgba(0, 0, 0, 0.25);
     padding: 20px 10px;
-    margin-top: 15px;
     margin-bottom: 700px;
 }
 
@@ -40,15 +39,51 @@ body {
 
 .header a:hover {
     color: white;
-    background: #6f94b3;
+    background: #82a6c2;
     text-decoration: none;
     cursor: pointer;
 }
 
 .header a.active {
-    color: white;
-    background-color: steelblue;
+    color: #ffffff;
+    background-color: #4682B4;
     text-decoration: none;
+}
+
+div.gallery {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(2, 400px);
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+figure {
+    border: #fdd7a5 solid 30px;
+}
+
+figcaption {
+    text-align: center;
+    font: 18px "Baskerville Old Face";
+}
+
+#iframe-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+iframe {
+    /*display: block;*/
 }
 
 h1 {
@@ -57,10 +92,31 @@ h1 {
     font: 54px "Montserrat Medium";
 }
 
+h3 {
+    margin-left: 22%;
+    margin-right: 20%;
+    font: italic small-caps 24px "Montserrat Medium";
+}
+
+#main-title {
+    margin-top: 5%;
+    font-variant: small-caps;
+}
+
 p {
-    border-left: lightgrey 3px;
-    border-right: lightgrey 3px;
+    font: 18px "Baskerville Old Face";
     margin-left: 20%;
     margin-right: 20%;
     text-align: justify;
+}
+
+p.sources {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+ul {
+    margin-left: 25%;
+    margin-right: 25%;
+    font: 16px Century, serif;
 }
