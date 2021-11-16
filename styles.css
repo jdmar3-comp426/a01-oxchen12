@@ -1,0 +1,122 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    background-color: #fafad2;
+    min-width: 1900px;
+}
+
+.vspace-tiny {
+    height: 15px;
+}
+
+.bg-header-large {
+    height: 765px;
+    background: #fafad2 url("img/griffin-large.png") no-repeat fixed center top;
+}
+
+.bg-header-small {
+    height: 372px;
+    background: #fafad2 url("img/griffin-small.png") no-repeat fixed center top;
+}
+
+.header {
+    text-align: right;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 20px 10px;
+    margin-bottom: 700px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font: 20px "Lucida Sans", SansSerif;
+    border-radius: 5px;
+    padding: 7px 7px;
+}
+
+.header a:hover {
+    color: white;
+    background: #82a6c2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header a.active {
+    color: #ffffff;
+    background-color: #4682B4;
+    text-decoration: none;
+}
+
+div.gallery {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(2, 400px);
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+figure {
+    border: #fdd7a5 solid 30px;
+}
+
+figcaption {
+    text-align: center;
+    font: 18px "Baskerville Old Face";
+}
+
+#iframe-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+iframe {
+    /*display: block;*/
+}
+
+h1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font: 54px "Montserrat Medium";
+}
+
+h3 {
+    margin-left: 22%;
+    margin-right: 20%;
+    font: italic small-caps 24px "Montserrat Medium";
+}
+
+#main-title {
+    margin-top: 5%;
+    font-variant: small-caps;
+}
+
+p {
+    font: 18px "Baskerville Old Face";
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+}
+
+p.sources {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+ul {
+    margin-left: 25%;
+    margin-right: 25%;
+    font: 16px Century, serif;
+}
